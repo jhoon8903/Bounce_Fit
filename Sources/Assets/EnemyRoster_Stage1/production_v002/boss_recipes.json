@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "canvas_size": 1024,
+  "alpha_threshold": 8,
+  "safe_content_bounds": [
+    32,
+    992
+  ],
+  "bosses": {
+    "B01_SawmillTower": {
+      "draw_order": [
+        "Base",
+        "Core",
+        "LeftTurret",
+        "RightTurret"
+      ],
+      "parts": {
+        "Base": {
+          "width": 940,
+          "center_x": 512,
+          "bottom_y": 940
+        },
+        "Core": {
+          "width": 360,
+          "center_x": 545,
+          "bottom_y": 780
+        },
+        "LeftTurret": {
+          "width": 310,
+          "center_x": 255,
+          "bottom_y": 840
+        },
+        "RightTurret": {
+          "width": 310,
+          "center_x": 770,
+          "bottom_y": 825
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "version": 2,
+  "canvas_size": 512,
+  "alpha_threshold": 8,
+  "safe_content_bounds": [
+    32,
+    480
+  ],
+  "default_template": "cart",
+  "templates": {
+    "cart": {
+      "Rear": {
+        "width": 360,
+        "center_x": 280,
+        "bottom_y": 450
+      },
+      "Rider": {
+        "width": 190,
+        "center_x": 230,
+        "bottom_y": 335
+      },
+      "Front": {
+        "width": 285,
+        "center_x": 222,
+        "bottom_y": 420
+      },
+      "Equipment": {
+        "width": 65,
+        "center_x": 380,
+        "bottom_y": 335
+      }
+    },
+    "square": {
+      "Rear": {
+        "width": 330,
+        "center_x": 276,
+        "bottom_y": 454
+      },
+      "Rider": {
+        "width": 188,
+        "center_x": 228,
+        "bottom_y": 337
+      },
+      "Front": {
+        "width": 255,
+        "center_x": 220,
+        "bottom_y": 368
+      },
+      "Equipment": {
+        "width": 68,
+        "center_x": 382,
+        "bottom_y": 332
+      }
+    },
+    "long": {
+      "Rear": {
+        "width": 392,
+        "center_x": 285,
+        "bottom_y": 452
+      },
+      "Rider": {
+        "width": 184,
+        "center_x": 214,
+        "bottom_y": 334
+      },
+      "Front": {
+        "width": 250,
+        "center_x": 205,
+        "bottom_y": 370
+      },
+      "Equipment": {
+        "width": 72,
+        "center_x": 404,
+        "bottom_y": 327
+      }
+    },
+    "wide": {
+      "Rear": {
+        "width": 378,
+        "center_x": 275,
+        "bottom_y": 454
+      },
+      "Rider": {
+        "width": 180,
+        "center_x": 229,
+        "bottom_y": 332
+      },
+      "Front": {
+        "width": 286,
+        "center_x": 218,
+        "bottom_y": 370
+      },
+      "Equipment": {
+        "width": 72,
+        "center_x": 391,
+        "bottom_y": 326
+      }
+    },
+    "diamond": {
+      "Rear": {
+        "width": 350,
+        "center_x": 275,
+        "bottom_y": 452
+      },
+      "Rider": {
+        "width": 180,
+        "center_x": 228,
+        "bottom_y": 333
+      },
+      "Front": {
+        "width": 265,
+        "center_x": 218,
+        "bottom_y": 368
+      },
+      "Equipment": {
+        "width": 76,
+        "center_x": 389,
+        "bottom_y": 323
+      }
+    },
+    "L": {
+      "Rear": {
+        "width": 350,
+        "center_x": 278,
+        "bottom_y": 452
+      },
+      "Rider": {
+        "width": 185,
+        "center_x": 226,
+        "bottom_y": 335
+      },
+      "Front": {
+        "width": 260,
+        "center_x": 218,
+        "bottom_y": 368
+      },
+      "Equipment": {
+        "width": 78,
+        "center_x": 395,
+        "bottom_y": 329
+      }
+    }
+  },
+  "units": {
+    "E01_LoggingCart": {
+      "template": "cart"
+    },
+    "E02_HunterCart": {
+      "template": "cart",
+      "overrides": {
+        "Rider": {
+          "bottom_y": 295
+        },
+        "Equipment": {
+          "width": 155,
+          "center_x": 185,
+          "bottom_y": 385
+        }
+      }
+    },
+    "E03_Bulldozer": {
+      "template": "wide",
+      "overrides": {
+        "Rider": {
+          "bottom_y": 292
+        },
+        "Front": {
+          "width": 300,
+          "bottom_y": 420
+        },
+        "Equipment": {
+          "width": 360,
+          "center_x": 220,
+          "bottom_y": 440
+        }
+      }
+    },
+    "E04_LogTruck": {
+      "template": "long",
+      "draw_order": [
+        "Rear",
+        "Equipment",
+        "Rider",
+        "Front"
+      ],
+      "overrides": {
+        "Equipment": {
+          "width": 150,
+          "center_x": 330,
+          "bottom_y": 220
+        },
+        "Rider": {
+          "bottom_y": 304
+        },
+        "Front": {
+          "width": 235,
+          "center_x": 211,
+          "bottom_y": 418
+        }
+      }
+    },
+    "E05_Sidecar": {
+      "template": "L",
+      "overrides": {
+        "Rider": {
+          "bottom_y": 307
+        },
+        "Front": {
+          "center_x": 200,
+          "bottom_y": 390
+        },
+        "Equipment": {
+          "width": 85,
+          "center_x": 125,
+          "bottom_y": 360
+        }
+      }
+    },
+    "E06_SurveyRover": {
+      "template": "diamond",
+      "draw_order": [
+        "Rear",
+        "Equipment",
+        "Rider",
+        "Front"
+      ],
+      "overrides": {
+        "Front": {
+          "width": 350,
+          "center_x": 275,
+          "bottom_y": 452
+        },
+        "Rider": {
+          "bottom_y": 250,
+          "center_x": 300
+        }
+      }
+    },
+    "E07_ArmoredRover": {
+      "template": "diamond",
+      "overrides": {
+        "Rider": {
+          "bottom_y": 270,
+          "center_x": 268
+        },
+        "Front": {
+          "width": 320,
+          "center_x": 270,
+          "bottom_y": 452
+        }
+      }
+    },
+    "E08_DemolitionCarrier": {
+      "template": "wide",
+      "overrides": {
+        "Equipment": {
+          "width": 260,
+          "center_x": 220,
+          "bottom_y": 400
+        }
+      }
+    },
+    "E09_Tanker": {
+      "template": "long",
+      "draw_order": [
+        "Rear",
+        "Equipment",
+        "Rider",
+        "Front"
+      ],
+      "overrides": {
+        "Equipment": {
+          "width": 170,
+          "center_x": 340,
+          "bottom_y": 245
+        },
+        "Rider": {
+          "bottom_y": 297
+        },
+        "Front": {
+          "width": 235,
+          "center_x": 211,
+          "bottom_y": 418
+        }
+      }
+    },
+    "E10_RepairSidecar": {
+      "template": "L",
+      "overrides": {
+        "Rider": {
+          "bottom_y": 307
+        },
+        "Front": {
+          "center_x": 200,
+          "bottom_y": 390
+        }
+      }
+    },
+    "E11_CommandCart": {
+      "template": "cart",
+      "overrides": {
+        "Equipment": {
+          "width": 150,
+          "center_x": 380,
+          "bottom_y": 335
+        }
+      }
+    },
+    "E12_DrillTruck": {
+      "template": "long",
+      "overrides": {
+        "Equipment": {
+          "width": 180,
+          "center_x": 135,
+          "bottom_y": 400
+        },
+        "Rider": {
+          "bottom_y": 284,
+          "center_x": 280
+        },
+        "Front": {
+          "bottom_y": 414
+        }
+      }
+    },
+    "E13_RoadRoller": {
+      "template": "wide",
+      "overrides": {
+        "Equipment": {
+          "width": 320,
+          "center_x": 205,
+          "bottom_y": 440
+        }
+      }
+    },
+    "E14_CoilRover": {
+      "template": "diamond",
+      "draw_order": [
+        "Rear",
+        "Equipment",
+        "Rider",
+        "Front"
+      ],
+      "overrides": {
+        "Front": {
+          "width": 350,
+          "center_x": 275,
+          "bottom_y": 452
+        },
+        "Rider": {
+          "bottom_y": 283,
+          "center_x": 285
+        }
+      }
+    },
+    "E15_SignalSidecar": {
+      "template": "L",
+      "overrides": {
+        "Rider": {
+          "bottom_y": 307
+        },
+        "Front": {
+          "center_x": 200,
+          "bottom_y": 390
+        }
+      }
+    }
+  }
+}

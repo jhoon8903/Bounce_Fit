@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "project_id": "Bounce_Fit",
+  "asset_id": "EnemyRoster_Stage1",
+  "asset_type": "ModularEnemyRoster",
+  "animation_id": "StaticLayered",
+  "sources": {
+    "asset_spec": "Asset_Spec.md",
+    "character_bible": "Asset_Bible.md",
+    "master_reference": "production_v002/previews/E01_LoggingCart_assembled.png",
+    "animation_spec": "Layer_Spec.md",
+    "key_pose_spec": "Layer_Spec.md",
+    "additional_references": [
+      "review_v001/01_05_Basic.png",
+      "review_v001/06_10_Specialist.png",
+      "review_v001/11_15_Elite.png",
+      "review_v001/Boss01_SawmillTower.png"
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "width": 512,
+    "height": 512,
+    "alpha": true,
+    "background": "Transparent",
+    "require_power_of_two": true,
+    "content_bounds": {
+      "mode": "fixed",
+      "alpha_threshold": 8
+    },
+    "boss_override": {
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "generation": {
+    "poses": [
+      "E01_LoggingCart",
+      "E02_HunterCart",
+      "E03_Bulldozer",
+      "E04_LogTruck",
+      "E05_Sidecar",
+      "E06_SurveyRover",
+      "E07_ArmoredRover",
+      "E08_DemolitionCarrier",
+      "E09_Tanker",
+      "E10_RepairSidecar",
+      "E11_CommandCart",
+      "E12_DrillTruck",
+      "E13_RoadRoller",
+      "E14_CoilRover",
+      "E15_SignalSidecar",
+      "B01_SawmillTower"
+    ],
+    "locked": [
+      "Identity",
+      "Palette",
+      "One wheel-owning layer",
+      "Elevated camera"
+    ],
+    "prohibited": [
+      "Duplicate wheels",
+      "Front layer undercarriage",
+      "Labels",
+      "Cut edges"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "BounceFit.Framework.Editor",
+  "references": [
+    "BounceFit.Framework",
+    "UniTask"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

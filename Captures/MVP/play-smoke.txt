@@ -1,0 +1,13 @@
+Play smoke checks
+PASS: Start button begins run
+PASS: Combat clock advances
+PASS: WASD move and mouse aim work without a click
+PASS: Movement and mouse aim are independent
+PASS: Combat snapshots populate view
+PASS: Pause freezes simulation
+PASS: XP opens card choice
+PASS: Card choice freezes simulation
+PASS: Boss spawn is not victory
+PASS: Win result reached
+PASS: Restart resets run
+PASS: Defeat result reached

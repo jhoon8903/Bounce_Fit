@@ -1,0 +1,41 @@
+{
+    "note": "Deterministic 30 Hz bot probe. It aims at the nearest forward enemy, pursues nearby XP, and avoids nearby bullets. It is an economy/survival signal, not a human-play result.",
+    "results": [
+        {
+            "seed": 101,
+            "elapsed": 378.3958435058594,
+            "won": true,
+            "lost": false,
+            "kills": 1076,
+            "level": 42,
+            "damage": 16.0,
+            "hp": 84.0,
+            "peakEntityCount": 256,
+            "walltime": 3.8692007064819338
+        },
+        {
+            "seed": 202,
+            "elapsed": 378.2625427246094,
+            "won": true,
+            "lost": false,
+            "kills": 1060,
+            "level": 40,
+            "damage": 24.0,
+            "hp": 76.0,
+            "peakEntityCount": 294,
+            "walltime": 3.942789077758789
+        },
+        {
+            "seed": 303,
+            "elapsed": 383.7945251464844,
+            "won": true,
+            "lost": false,
+            "kills": 1061,
+            "level": 42,
+            "damage": 36.0,
+            "hp": 64.0,
+            "peakEntityCount": 255,
+            "walltime": 3.955476999282837
+        }
+    ]
+}

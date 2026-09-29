@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "canvas_size": 512,
+  "alpha_threshold": 8,
+  "default_template": "cart",
+  "templates": {
+    "cart": {
+      "Rear": {"width": 360, "center_x": 280, "bottom_y": 450},
+      "Rider": {"width": 190, "center_x": 230, "bottom_y": 335},
+      "Front": {"width": 320, "center_x": 222, "bottom_y": 470},
+      "Equipment": {"width": 65, "center_x": 380, "bottom_y": 335}
+    },
+    "square": {
+      "Rear": {"width": 330, "center_x": 276, "bottom_y": 454},
+      "Rider": {"width": 188, "center_x": 228, "bottom_y": 337},
+      "Front": {"width": 300, "center_x": 220, "bottom_y": 472},
+      "Equipment": {"width": 68, "center_x": 382, "bottom_y": 332}
+    },
+    "long": {
+      "Rear": {"width": 392, "center_x": 285, "bottom_y": 452},
+      "Rider": {"width": 184, "center_x": 214, "bottom_y": 334},
+      "Front": {"width": 300, "center_x": 205, "bottom_y": 474},
+      "Equipment": {"width": 72, "center_x": 404, "bottom_y": 327}
+    },
+    "wide": {
+      "Rear": {"width": 378, "center_x": 275, "bottom_y": 454},
+      "Rider": {"width": 180, "center_x": 229, "bottom_y": 332},
+      "Front": {"width": 344, "center_x": 218, "bottom_y": 474},
+      "Equipment": {"width": 72, "center_x": 391, "bottom_y": 326}
+    },
+    "diamond": {
+      "Rear": {"width": 350, "center_x": 275, "bottom_y": 452},
+      "Rider": {"width": 180, "center_x": 228, "bottom_y": 333},
+      "Front": {"width": 320, "center_x": 218, "bottom_y": 472},
+      "Equipment": {"width": 76, "center_x": 389, "bottom_y": 323}
+    },
+    "L": {
+      "Rear": {"width": 350, "center_x": 278, "bottom_y": 452},
+      "Rider": {"width": 185, "center_x": 226, "bottom_y": 335},
+      "Front": {"width": 310, "center_x": 218, "bottom_y": 472},
+      "Equipment": {"width": 78, "center_x": 395, "bottom_y": 329}
+    }
+  },
+  "units": {
+    "E01_LoggingCart": {"template": "cart"},
+    "E02_HunterCart": {"template": "cart"},
+    "E03_Bulldozer": {"template": "wide"},
+    "E04_LogTruck": {"template": "long"},
+    "E05_Sidecar": {"template": "L"},
+    "E06_SurveyRover": {"template": "diamond"},
+    "E07_ArmoredRover": {"template": "diamond"},
+    "E08_DemolitionCarrier": {"template": "wide"},
+    "E09_Tanker": {"template": "long"},
+    "E10_RepairSidecar": {"template": "L"},
+    "E11_CommandCart": {"template": "cart"},
+    "E12_DrillTruck": {"template": "long"},
+    "E13_RoadRoller": {"template": "wide"},
+    "E14_CoilRover": {"template": "diamond"},
+    "E15_SignalSidecar": {"template": "L"}
+  }
+}

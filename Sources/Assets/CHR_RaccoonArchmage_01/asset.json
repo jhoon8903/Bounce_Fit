@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "project_id": "Bounce_Fit",
+  "asset_id": "CHR_RaccoonArchmage_01",
+  "asset_type": "Character",
+  "animation_id": "ProceduralRecoil",
+  "sources": {
+    "asset_spec": "Asset_Spec.md",
+    "character_bible": "Character_Bible.md",
+    "master_reference": "review/ModularConcept_v005_CrookedStaff.png",
+    "animation_spec": "Direction_Spec.md",
+    "key_pose_spec": "Direction_Spec.md"
+  },
+  "output": {
+    "format": "PNG",
+    "width": 512,
+    "height": 512,
+    "alpha": true,
+    "background": "Transparent",
+    "require_power_of_two": true,
+    "content_bounds": {
+      "mode": "fixed",
+      "alpha_threshold": 8
+    }
+  },
+  "generation": {
+    "poses": [
+      "Back",
+      "Diagonal",
+      "Side"
+    ],
+    "locked": [
+      "Identity",
+      "Palette",
+      "Part proportions",
+      "Elevated rear camera"
+    ],
+    "prohibited": [
+      "Front view",
+      "Pixel style",
+      "Labels",
+      "Cropping"
+    ]
+  }
+}

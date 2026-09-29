@@ -1,0 +1,834 @@
+[
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E05_Sidecar/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      82,
+      278,
+      167,
+      360
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E05_Sidecar/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      104,
+      199,
+      452,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E05_Sidecar/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      135,
+      92,
+      318,
+      306
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E05_Sidecar/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      71,
+      238,
+      329,
+      389
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E09_Tanker/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      256,
+      95,
+      424,
+      245
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E09_Tanker/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      90,
+      115,
+      479,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E09_Tanker/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      123,
+      75,
+      305,
+      296
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E09_Tanker/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      95,
+      264,
+      328,
+      417
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E01_LoggingCart/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      348,
+      236,
+      412,
+      335
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E01_LoggingCart/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      101,
+      102,
+      459,
+      449
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E01_LoggingCart/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      136,
+      93,
+      324,
+      334
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E01_LoggingCart/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      81,
+      242,
+      364,
+      419
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E13_RoadRoller/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      46,
+      263,
+      364,
+      439
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E13_RoadRoller/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      87,
+      164,
+      462,
+      453
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E13_RoadRoller/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      140,
+      121,
+      318,
+      331
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E13_RoadRoller/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      76,
+      220,
+      360,
+      369
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E10_RepairSidecar/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      356,
+      236,
+      434,
+      329
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E10_RepairSidecar/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      105,
+      185,
+      452,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E10_RepairSidecar/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      135,
+      127,
+      318,
+      307
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E10_RepairSidecar/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      71,
+      267,
+      329,
+      389
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E12_DrillTruck/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      46,
+      233,
+      224,
+      399
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E12_DrillTruck/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      90,
+      116,
+      480,
+      450
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E12_DrillTruck/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      188,
+      94,
+      371,
+      283
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E12_DrillTruck/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      81,
+      241,
+      329,
+      413
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E11_CommandCart/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      306,
+      214,
+      454,
+      334
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E11_CommandCart/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      102,
+      158,
+      459,
+      449
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E11_CommandCart/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      136,
+      115,
+      324,
+      334
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E11_CommandCart/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      81,
+      242,
+      363,
+      419
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E06_SurveyRover/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      352,
+      90,
+      426,
+      322
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E06_SurveyRover/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      101,
+      144,
+      449,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E06_SurveyRover/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      211,
+      75,
+      390,
+      250
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E06_SurveyRover/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      101,
+      199,
+      449,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E15_SignalSidecar/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      357,
+      194,
+      433,
+      328
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E15_SignalSidecar/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      104,
+      187,
+      452,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E15_SignalSidecar/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      135,
+      113,
+      318,
+      306
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E15_SignalSidecar/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      71,
+      265,
+      329,
+      389
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/B01_SawmillTower/LeftTurret.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "alpha_bounds": [
+      101,
+      625,
+      409,
+      839
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/B01_SawmillTower/RightTurret.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "alpha_bounds": [
+      616,
+      622,
+      924,
+      824
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/B01_SawmillTower/Base.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "alpha_bounds": [
+      45,
+      535,
+      978,
+      937
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/B01_SawmillTower/Core.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "alpha_bounds": [
+      367,
+      346,
+      723,
+      779
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E02_HunterCart/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      108,
+      265,
+      263,
+      384
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E02_HunterCart/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      102,
+      157,
+      459,
+      449
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E02_HunterCart/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      136,
+      96,
+      324,
+      294
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E02_HunterCart/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      81,
+      214,
+      364,
+      419
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E04_LogTruck/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      255,
+      114,
+      405,
+      220
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E04_LogTruck/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      91,
+      42,
+      479,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E04_LogTruck/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      123,
+      85,
+      305,
+      303
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E04_LogTruck/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      95,
+      268,
+      328,
+      417
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E07_ArmoredRover/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      351,
+      237,
+      427,
+      323
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E07_ArmoredRover/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      101,
+      119,
+      449,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E07_ArmoredRover/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      179,
+      55,
+      357,
+      269
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E07_ArmoredRover/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      112,
+      64,
+      429,
+      450
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E03_Bulldozer/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      41,
+      244,
+      398,
+      439
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E03_Bulldozer/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      87,
+      162,
+      463,
+      453
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E03_Bulldozer/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      140,
+      88,
+      318,
+      291
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E03_Bulldozer/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      70,
+      250,
+      366,
+      419
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E14_CoilRover/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      351,
+      214,
+      427,
+      323
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E14_CoilRover/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      101,
+      155,
+      449,
+      451
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E14_CoilRover/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      196,
+      72,
+      374,
+      282
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E14_CoilRover/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      101,
+      214,
+      448,
+      450
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E08_DemolitionCarrier/Equipment.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      90,
+      267,
+      349,
+      399
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E08_DemolitionCarrier/Rear.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      87,
+      218,
+      463,
+      453
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E08_DemolitionCarrier/Rider.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      140,
+      155,
+      318,
+      331
+    ]
+  },
+  {
+    "file": "Assets/Projects/MVP/Art/Enemies/Stage1/E08_DemolitionCarrier/Front.png",
+    "size": [
+      512,
+      512
+    ],
+    "alpha_bounds": [
+      76,
+      228,
+      359,
+      369
+    ]
+  }
+]

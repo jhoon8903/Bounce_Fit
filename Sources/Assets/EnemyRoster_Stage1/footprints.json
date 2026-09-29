@@ -1,0 +1,167 @@
+{
+  "status": "design_targets_not_runtime_colliders",
+  "axes": "local ground X right, Z forward toward player at negative Z; unit grid",
+  "warning": "Art perspective and vehicle dimensions require calibration before collision use. L corners exclude internal seams.",
+  "shapes": {
+    "square": [
+      [
+        -0.5,
+        -0.5
+      ],
+      [
+        0.5,
+        -0.5
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        -0.5,
+        0.5
+      ]
+    ],
+    "wide": [
+      [
+        -1,
+        -0.5
+      ],
+      [
+        1,
+        -0.5
+      ],
+      [
+        1,
+        0.5
+      ],
+      [
+        -1,
+        0.5
+      ]
+    ],
+    "long": [
+      [
+        -0.5,
+        -1
+      ],
+      [
+        0.5,
+        -1
+      ],
+      [
+        0.5,
+        1
+      ],
+      [
+        -0.5,
+        1
+      ]
+    ],
+    "diamond": [
+      [
+        0,
+        -0.75
+      ],
+      [
+        0.75,
+        0
+      ],
+      [
+        0,
+        0.75
+      ],
+      [
+        -0.75,
+        0
+      ]
+    ],
+    "L": [
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ]
+  },
+  "units": [
+    {
+      "id": "E01_LoggingCart",
+      "shape": "square"
+    },
+    {
+      "id": "E02_HunterCart",
+      "shape": "square"
+    },
+    {
+      "id": "E03_Bulldozer",
+      "shape": "wide"
+    },
+    {
+      "id": "E04_LogTruck",
+      "shape": "long"
+    },
+    {
+      "id": "E05_Sidecar",
+      "shape": "L"
+    },
+    {
+      "id": "E06_SurveyRover",
+      "shape": "diamond"
+    },
+    {
+      "id": "E07_ArmoredRover",
+      "shape": "diamond"
+    },
+    {
+      "id": "E08_DemolitionCarrier",
+      "shape": "wide"
+    },
+    {
+      "id": "E09_Tanker",
+      "shape": "long"
+    },
+    {
+      "id": "E10_RepairSidecar",
+      "shape": "L"
+    },
+    {
+      "id": "E11_CommandCart",
+      "shape": "square"
+    },
+    {
+      "id": "E12_DrillTruck",
+      "shape": "long"
+    },
+    {
+      "id": "E13_RoadRoller",
+      "shape": "wide"
+    },
+    {
+      "id": "E14_CoilRover",
+      "shape": "diamond"
+    },
+    {
+      "id": "E15_SignalSidecar",
+      "shape": "L"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3db09611a7d4c6eae2c8e100a91b884, type: 3}
+  m_Name: PoolContainer
+  m_EditorClassIdentifier: BounceFit.Framework::Framework.Poolable.Scriptable.EntityPoolContainer
+  entries:
+  - id: Mvp.Player
+    prefab: {fileID: 3182965059294098172, guid: 203a646df823c46ee9a140e0bf32bba6, type: 3}
+    initialCapacity: 1
+    maxCapacity: 0
+  - id: Mvp.BaseBall
+    prefab: {fileID: 1543725927522093695, guid: f9e22c92912e34ccdbd7bede68fc31c6, type: 3}
+    initialCapacity: 16
+    maxCapacity: 0
+  - id: Mvp.FireBall
+    prefab: {fileID: 4396476668751898232, guid: 9ca22631f7d0040a094f6b7d9c8af7e7, type: 3}
+    initialCapacity: 4
+    maxCapacity: 0
+  - id: Mvp.IceBall
+    prefab: {fileID: 339992436909349959, guid: 3ecdc91067f5b48ebb7ded26a8437b2e, type: 3}
+    initialCapacity: 4
+    maxCapacity: 0
+  - id: Mvp.StormBall
+    prefab: {fileID: 8730026681579778061, guid: c0bfe870e19a54cf689ebd1b5df0c0f0, type: 3}
+    initialCapacity: 4
+    maxCapacity: 0
+  - id: Mvp.FusionBall
+    prefab: {fileID: 7875883044863563927, guid: 41f9ae07f78664b3885424e072d9c0a4, type: 3}
+    initialCapacity: 4
+    maxCapacity: 0
+  - id: Mvp.Enemy
+    prefab: {fileID: 2633393504628570129, guid: 892c56dbc1367423fb6d7cafdb06b2d7, type: 3}
+    initialCapacity: 64
+    maxCapacity: 0
+  - id: Mvp.Shooter
+    prefab: {fileID: 3129576787111592354, guid: 33e3bb5605265429bae4ac412b343f3f, type: 3}
+    initialCapacity: 32
+    maxCapacity: 0
+  - id: Mvp.Boss
+    prefab: {fileID: 7754066599523917204, guid: 7e56cccff66bc4d6abebf0f2c30bca54, type: 3}
+    initialCapacity: 1
+    maxCapacity: 0
+  - id: Mvp.EnemyBullet
+    prefab: {fileID: 2563531717626247868, guid: c5e6aeeadc0f64f35b75460f90229198, type: 3}
+    initialCapacity: 128
+    maxCapacity: 0
+  - id: Mvp.Xp
+    prefab: {fileID: 6948704549312569113, guid: 74e56e9624d904511ad4bf9364d88b4f, type: 3}
+    initialCapacity: 256
+    maxCapacity: 0

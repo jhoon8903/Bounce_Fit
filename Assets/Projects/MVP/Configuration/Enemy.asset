@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc4dd76708d6943ab8eb09c3e4294b2c, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: BounceFit.Mvp::BounceFit.Mvp.MvpEnemyConfig
+  spawnIntervalStart: 1.55
+  spawnIntervalEnd: 0.45
+  spawnRampSeconds: 300
+  countRampSeconds: 75
+  shooterStartSeconds: 10
+  shooterChanceStart: 0.12
+  shooterChanceRamp: 0.18
+  regularHealth: 20
+  regularHealthPerSecond: 0.035
+  shooterHealth: 30
+  regularRadius: 0.3
+  shooterRadius: 0.34
+  spawnY: 13
+  spawnRowSpacing: 0.65
+  shooterInitialCooldownMin: 0.9
+  shooterInitialCooldownMax: 1.7
+  shooterCooldown: 1.7
+  shooterTelegraphSeconds: 0.4
+  shooterBulletSpeed: 3.5
+  shooterBulletRadius: 0.14
+  shooterBulletLifetime: 4
+  bulletDamage: 8
+  shooterContactDamage: 12
+  bossContactDamage: 18
+  bossRadius: 0.9
+  bossHealth: 4500
+  bossSpawnY: 11.5
+  bossStopY: 8
+  bossMoveSpeed: 1.2
+  bossShotInterval: 0.9
+  bossFanBulletSpeed: 3.7
+  bossAimBulletSpeed: 4.2
+  bossBulletRadius: 0.16
+  bossFanBulletLifetime: 5
+  bossAimBulletLifetime: 4
+  bossFanHalfCount: 4
+  bossPatternCycle: 3
+  bossFanAngleStepRadians: 0.2
+  bossAimAngleStepRadians: 0.18

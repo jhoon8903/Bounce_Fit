@@ -1,0 +1,3 @@
+# Direction and animation contract
+Camera is elevated behind the character. Author Back (rear), Diagonal (rear-left three-quarter), Side (left profile); flip left sources for right-facing aim. Never show a frontal pose. Direction thresholds and part anchors/scales are runtime-editable in the new CharacterPresentation SO. Defaults: back ≤20 degrees, diagonal ≤60, side to the existing 80-degree aim limit.
+Recoil is procedural, with weapon kick, head displacement and delayed tail sway. This set supplies static directional parts, not a walking frame animation. Continuous staff rotation is subtle and uses the grip anchor. Projectile origin tracks the orb projected onto the combat plane.

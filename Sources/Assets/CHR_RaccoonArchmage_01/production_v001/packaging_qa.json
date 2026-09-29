@@ -1,0 +1,266 @@
+{
+  "Back": {
+    "method": "magenta excess matte; interior RGB preserved",
+    "key": "#FF00FF",
+    "Head": {
+      "source_bbox": [
+        83,
+        94,
+        552,
+        537
+      ],
+      "area": 172799,
+      "common_scale": 0.9218436873747495,
+      "final_bbox": [
+        40,
+        52,
+        472,
+        460
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 0
+    },
+    "Body": {
+      "source_bbox": [
+        714,
+        190,
+        1148,
+        520
+      ],
+      "area": 110554,
+      "common_scale": 1.031390134529148,
+      "final_bbox": [
+        32,
+        86,
+        480,
+        426
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 4
+    },
+    "Weapon": {
+      "source_bbox": [
+        180,
+        634,
+        437,
+        1180
+      ],
+      "area": 62856,
+      "common_scale": 0.7958477508650519,
+      "final_bbox": [
+        153,
+        38,
+        358,
+        473
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 14
+    },
+    "Tail": {
+      "source_bbox": [
+        729,
+        763,
+        1146,
+        1086
+      ],
+      "area": 100137,
+      "common_scale": 1.0526315789473684,
+      "final_bbox": [
+        36,
+        86,
+        475,
+        426
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 6
+    }
+  },
+  "Diagonal": {
+    "method": "magenta excess matte; interior RGB preserved",
+    "key": "#FF00FF",
+    "Head": {
+      "source_bbox": [
+        87,
+        53,
+        586,
+        551
+      ],
+      "area": 180997,
+      "common_scale": 0.9218436873747495,
+      "final_bbox": [
+        26,
+        26,
+        486,
+        485
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 3
+    },
+    "Body": {
+      "source_bbox": [
+        705,
+        194,
+        1151,
+        563
+      ],
+      "area": 124811,
+      "common_scale": 1.031390134529148,
+      "final_bbox": [
+        26,
+        65,
+        486,
+        446
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 4
+    },
+    "Weapon": {
+      "source_bbox": [
+        202,
+        610,
+        467,
+        1188
+      ],
+      "area": 64670,
+      "common_scale": 0.7958477508650519,
+      "final_bbox": [
+        150,
+        26,
+        361,
+        486
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 30
+    },
+    "Tail": {
+      "source_bbox": [
+        725,
+        764,
+        1162,
+        1091
+      ],
+      "area": 106538,
+      "common_scale": 1.0526315789473684,
+      "final_bbox": [
+        26,
+        84,
+        486,
+        428
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 5
+    }
+  },
+  "Side": {
+    "method": "magenta excess matte; interior RGB preserved",
+    "key": "#FF00FF",
+    "Head": {
+      "source_bbox": [
+        85,
+        86,
+        529,
+        524
+      ],
+      "area": 139591,
+      "common_scale": 0.9218436873747495,
+      "final_bbox": [
+        51,
+        54,
+        460,
+        458
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 6
+    },
+    "Body": {
+      "source_bbox": [
+        745,
+        212,
+        1133,
+        524
+      ],
+      "area": 93600,
+      "common_scale": 1.031390134529148,
+      "final_bbox": [
+        56,
+        95,
+        456,
+        417
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 3
+    },
+    "Weapon": {
+      "source_bbox": [
+        161,
+        628,
+        414,
+        1182
+      ],
+      "area": 63458,
+      "common_scale": 0.7958477508650519,
+      "final_bbox": [
+        155,
+        35,
+        356,
+        476
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 19
+    },
+    "Tail": {
+      "source_bbox": [
+        739,
+        786,
+        1142,
+        1074
+      ],
+      "area": 86860,
+      "common_scale": 1.0526315789473684,
+      "final_bbox": [
+        44,
+        104,
+        468,
+        407
+      ],
+      "final_size": [
+        512,
+        512
+      ],
+      "spill_pixels": 6
+    }
+  }
+}

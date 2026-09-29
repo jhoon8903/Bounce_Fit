@@ -1,0 +1,25 @@
+{
+  "file": "Sources/Assets/CHR_RaccoonArchmage_01/review/MasterCandidate_v001.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "meaningful_alpha_bbox": [
+    147,
+    60,
+    1084,
+    1113
+  ],
+  "status": "identity_review_only_not_production_approved",
+  "issues": [
+    "Camera elevation appears lower than intended gameplay camera; match before directional production.",
+    "Visible colored/white fringes around silhouette; reject as final sprite until corrected.",
+    "Staff hand assignment and grip must be locked in approved directional/layer specifications."
+  ],
+  "generation": "built-in image_gen, one call; native alpha returned despite chroma background request; no post-processing applied"
+}

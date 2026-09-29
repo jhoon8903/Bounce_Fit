@@ -1,0 +1,20 @@
+{
+  "name": "BounceFit.Framework",
+  "rootNamespace": "Framework",
+  "references": [
+    "UniTask",
+    "VContainer",
+    "Unity.Entities",
+    "Unity.Transforms",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Burst",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.ugui",
+    "UniTask.Addressables",
+    "Unity.Entities.Hybrid"
+  ],
+  "allowUnsafeCode": true,
+  "autoReferenced": true
+}

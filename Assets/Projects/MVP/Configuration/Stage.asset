@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6db80864b6644ca82e3ebe2c2f9c49, type: 3}
+  m_Name: Stage
+  m_EditorClassIdentifier: BounceFit.Mvp::BounceFit.Mvp.MvpStageConfig
+  scrollSpeed: 1.2
+  left: -7
+  right: 7
+  rear: -6.4
+  top: 13.5
+  playerMin: {x: -6.4, y: -5}
+  playerMax: {x: 6.4, y: 6}
+  cleanupMinY: -7
+  cleanupMaxY: 16
+  cleanupAbsX: 9
+  bossAtSeconds: 360
+  fastBossAtSeconds: 45
+  aimHalfAngle: 80
+  fixedStep: 0.016666668
+  maxSimulationStep: 0.05
+  maxFrameCatchup: 0.1
+  spawnEntityCap: 220
+  xpEntityCap: 300
+  randomSeed: 17

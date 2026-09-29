@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742f48d5f339149679f25f55a07fe326, type: 3}
+  m_Name: Ball
+  m_EditorClassIdentifier: BounceFit.Mvp::BounceFit.Mvp.MvpBallConfig
+  startingCount: 5
+  speed: 14
+  returnSpeed: 14
+  arrivalDistance: 0.15
+  maxFlightSeconds: 45
+  fireInterval: 0.62
+  baseDamage: 10
+  basicRadius: 0.17
+  activeRadius: 0.19
+  fusionRadius: 0.25
+  basicSpawnOffset: 0.42
+  activeSpawnOffset: 0.4
+  spreadAngle: 12
+  activeRandomAngle: 9.74
+  fireDamageMultiplier: 1.5
+  iceDamageMultiplier: 1.15
+  stormDamageMultiplier: 1.3
+  fusionDamageMultiplier: 2.2
+  activeDamagePerLevel: 0.2
+  splashRadius: 1.45
+  splashDamageMultiplier: 0.75
+  slowSeconds: 2.2
+  slowSpeedMultiplier: 0.45
+  stormPierce: 99
+  hitCooldown: 0.18

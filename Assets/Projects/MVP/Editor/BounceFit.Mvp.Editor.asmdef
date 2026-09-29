@@ -1,0 +1,19 @@
+{
+  "name": "BounceFit.Mvp.Editor",
+  "references": [
+    "BounceFit.Mvp",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.Mathematics",
+    "Unity.InputSystem",
+    "Unity.Addressables.Editor",
+    "BounceFit.Framework",
+    "Unity.Entities",
+    "Unity.Scenes",
+    "Unity.Collections"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "BounceFit.Mvp.Tests",
+  "references": [
+    "BounceFit.Mvp",
+    "Unity.Mathematics",
+    "Unity.Entities",
+    "Unity.Collections",
+    "BounceFit.Framework",
+    "Unity.Transforms"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
